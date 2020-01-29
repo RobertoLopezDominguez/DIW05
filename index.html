@@ -46,10 +46,10 @@
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#curriculum">Currículum</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#Premios">Premios</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#premios">Premios</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#Aptitudes">Aptitudes</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#aptitudes">Aptitudes</a>
           </li>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
@@ -152,6 +152,96 @@
   </section>
   <!-- FIN Sobre Mí-->
 
+  <!-- Cualidades -->
+  <!-- Esta sección la diseño yo, no está en la plantilla -->
+  <section class="page-section cualidades text-white bg-primary" id="cualidades">
+
+    <!-- contenedor para albergar los elementos -->
+    <div class="container">
+
+      <!-- Cabecera de la sección Sobre Mí -->
+      <h2 class="page-section-heading text-center text-white text-uppercase mb-0">Cualidades</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-code"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      
+      <div class="container"> <!-- contenedor para albergar los elementos -->
+        <div class="row"> <!-- fila 1 de 2 -->
+          <div class="col-md-4"> <!-- 3 columnas en dispositivos medianos o mayores, 1 en el resto -->
+            <div class="bg-white rounded mt-4 mb-3 h-75"> <!-- contenedor de fondo blanco y bordes redondeados -->
+              <div class="d-flex align-items-center justify-content-center"> <!-- contenedor para el icono -->
+                <img class="img-fluid mt-2" src="img/actualizado.svg" alt="Actualizado"> <!-- icono con un margen superior de 2-->
+              </div>
+            </div>
+            <div class="h6 text-center"> <!-- contenedor para el texto -->
+              Siempre Actualizado
+            </div>
+          </div>
+          <div class="col-md-4"> <!-- similar al anterior -->
+            <div class="bg-white rounded mt-4 mb-3 h-75"> 
+              <div class="d-flex align-items-center justify-content-center">
+                <img class="img-fluid mt-2" src="img/creativo.svg" alt="">
+              </div>
+            </div>
+            <div class="h6 text-center">
+              Muy Creativo
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="bg-white rounded mt-4 mb-3 h-75"> 
+              <div class="d-flex align-items-center justify-content-center">
+                <img class="img-fluid mt-2" src="img/comunicativo.svg" alt="">
+              </div>
+            </div>
+            <div class="h6 text-center">
+              Centrado en la Comunicación
+            </div>
+          </div>
+        </div>
+        <div class="row"> <!-- columna 2 de 2 -->
+          <div class="col-md-4">
+            <div class="bg-white rounded mt-4 mb-3 h-75"> 
+              <div class="d-flex align-items-center justify-content-center">
+                <img class="img-fluid mt-2" src="img/profesional.svg" alt="">
+              </div>
+            </div>
+            <div class="h6 text-center">
+              Trabajo Profesional
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="bg-white rounded mt-4 mb-3 h-75"> 
+              <div class="d-flex align-items-center justify-content-center">
+                <img class="img-fluid mt-2" src="img/experincia.svg" alt="">
+              </div>
+            </div>
+            <div class="h6 text-center">
+              Con mucha Experencia
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="bg-white rounded mt-4 mb-3 h-75"> 
+              <div class="d-flex align-items-center justify-content-center">
+                <img class="img-fluid mt-2" src="img/confiable.svg" alt="">
+              </div>
+            </div>
+            <div class="h6 text-center">
+              De confianza
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FIN Cualidades -->
+
   <!-- Premios -->
   <!-- Esta sección la diseño yo, no está en la plantilla -->
   <section class="page-section premios" id="premios">
@@ -170,46 +260,47 @@
         </div>
         <div class="divider-custom-line"></div>
       </div>
-    </div>
 
-    <!-- Presento los premios con un carrusel de imágenes -->
-    <div id="CarruselPremios" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carruselpremiosindicadores" data-slide-to="0" class="active"></li>
-        <li data-target="#carruselpremiosindicadores" data-slide-to="1"></li>
-        <li data-target="#carruselpremiosindicadores" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="img/1.Premios_CLAP_web.jpg" alt="Premios CLAP">
-          <div class="carousel-caption d-none d-md-block text-primary">
-            <h5>Premios CLAP</h5>
-            <p>Ganador del Premio CLAP al mejor diseño 2019</p>
+      <!-- Presento los premios con un carrusel de imágenes -->
+      <div id="CarruselPremios" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators"> <!-- indicadores de en qué diapositiva se está -->
+          <li data-target="#carruselpremiosindicadores" data-slide-to="0" class="active"></li> <!-- el primero está activo al principio -->
+          <li data-target="#carruselpremiosindicadores" data-slide-to="1"></li>
+          <li data-target="#carruselpremiosindicadores" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner"> <!-- cada una de las imágenes -->
+          <div class="carousel-item active"> <!-- el primero activo por defecto -->
+            <img class="d-block w-100" src="img/1.Premios_CLAP_web.jpg" alt="Premios CLAP"> <!-- imagen con un ancho del 100% -->
+            <div class="carousel-caption d-none d-md-block text-primary"> <!-- etiqueta de cada imagen-->
+              <h5>Premios CLAP</h5>
+              <p>Ganador del Premio CLAP al mejor diseño 2019</p>
+            </div>
+          </div>
+          <div class="carousel-item"> <!-- similar al anterior -->
+            <img class="d-block w-100" src="img/2.Premios_LAUS_web.jpg" alt="Premios LAUS">
+            <div class="carousel-caption d-none d-md-block text-primary">
+              <h5>Premios LAUS</h5>
+              <p>Ganador del Premio LAUS al mejor diseño web 2017</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/3.Premios_WEBBY_web.jpg" alt="Premios WEBBY">
+            <div class="carousel-caption d-none d-md-block text-primary">
+              <h5>Premios WEBBY</h5>
+              <p>Ganador del Premio LAUS al mejor diseño internacional 2015</p>
+            </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="img/2.Premios_LAUS_web.jpg" alt="Premios LAUS">
-          <div class="carousel-caption d-none d-md-block text-primary">
-            <h5>Premios LAUS</h5>
-            <p>Ganador del Premio LAUS al mejor diseño web 2017</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="img/3.Premios_WEBBY_web.jpg" alt="Premios WEBBY">
-          <div class="carousel-caption d-none d-md-block text-primary">
-            <h5>Premios WEBBY</h5>
-            <p>Ganador del Premio LAUS al mejor diseño internacional 2015</p>
-          </div>
-        </div>
+        <!-- controles Anterior y Siguiente del carrusel -->
+        <a class="carousel-control-prev" href="#CarruselPremios" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#CarruselPremios" role="button" data-slide="next">
+          <span class="carousel-control-next-icon text-primary" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
       </div>
-      <a class="carousel-control-prev" href="#CarruselPremios" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Anterior</span>
-      </a>
-      <a class="carousel-control-next" href="#CarruselPremios" role="button" data-slide="next">
-        <span class="carousel-control-next-icon text-primary" aria-hidden="true"></span>
-        <span class="sr-only">Siguiente</span>
-      </a>
     </div>
 
   </section>
