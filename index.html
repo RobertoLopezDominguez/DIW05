@@ -128,8 +128,8 @@
         <!-- Divido el espacio en dos partes de 6 columnas para tamaños medianos o superiores -->
         <div class="col-12 col-md-6">
           <!-- Dispongo dos imágenes: una más apaisada para tamaños pequeños y grandes y una cuadrada para tamaños medianos -->
-          <img class="img-fluid mx-auto d-sm-block d-md-none d-lg-block" src="https://via.placeholder.com/550x300" alt="">
-          <img class="img-fluid mx-auto d-none d-md-block d-lg-none" src="https://via.placeholder.com/600" alt="">
+          <img class="img-fluid mx-auto d-sm-block d-md-none d-lg-block" src="img/Roberto_Lopez1a.jpg" alt="">
+          <img class="img-fluid mx-auto d-none d-md-block d-lg-none" src="img/Roberto_Lopez2a.jpg" alt="">
         </div>
 
         <!-- Texto Sobre Mí -->
@@ -395,61 +395,62 @@
     </section>
   <!-- FIN Aptitudes -->
 
-  
-
-  <!-- Contact Section -->
-  <section class="page-section" id="contact">
+  <!-- Contacto -->
+  <!-- Modifico la sección de contacto de la plantilla -->
+  <section class="page-section" id="contacto">
     <div class="container">
 
       <!-- Contact Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contacto</h2>
 
       <!-- Icon Divider -->
       <div class="divider-custom">
         <div class="divider-custom-line"></div>
         <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
+          <i class="fas fa-code"></i>
         </div>
         <div class="divider-custom-line"></div>
       </div>
 
       <!-- Contact Section Form -->
       <div class="row">
-        <div class="col-lg-8 mx-auto">
+        <div class="col-lg-10 mx-auto"> <!-- Aumento a 10 las columnas que ocupa el formulario -->
           <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
           <form name="sentMessage" id="contactForm" novalidate="novalidate">
-            <div class="control-group">
+            <!-- Añado un campo de Apellidos y floto a la derecha de Nombre para que aparezcan en la misma línea en pantallas grandes -->
+            <!-- cambiará de tamaño y se pondrán en la misma columna en el resto de pantallas -->
+            <div class="control-group col-lg-4 float-left p-0">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Name</label>
-                <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
+                <label>Nombre</label>
+                <input class="form-control" id="nombre" type="text" placeholder="Nombre" required="required" data-validation-required-message="Por favor, introduce tu nombre.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group col-lg-7 float-right p-0">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label>Apellidos</label>
+                <input class="form-control" id="apellidos" type="text" placeholder="Apellidos" required="required" data-validation-required-message="Por favor, introduce tus apellidos.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Email Address</label>
-                <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
+                <label>Correo Electrónico</label>
+                <input class="form-control" id="email" type="email" placeholder="Correo Electrónico" required="required" data-validation-required-message="Por favor, introduce tu correo electrónico.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Phone Number</label>
-                <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Message</label>
-                <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                <label>Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="5" placeholder="Mensaje" required="required" data-validation-required-message="Por favor, escribe un mensaje."></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <br>
             <div id="success"></div>
             <div class="form-group">
-              <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+              <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Enviar</button>
             </div>
           </form>
         </div>
@@ -457,51 +458,12 @@
 
     </div>
   </section>
-
-  <!-- Footer -->
-  <footer class="footer text-center">
-    <div class="container">
-      <div class="row">
-
-        <!-- Footer Location -->
-        <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Location</h4>
-          <p class="lead mb-0">2215 John Daniel Drive
-            <br>Clark, MO 65243</p>
-        </div>
-
-        <!-- Footer Social Icons -->
-        <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Around the Web</h4>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-facebook-f"></i>
-          </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-twitter"></i>
-          </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-linkedin-in"></i>
-          </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-dribbble"></i>
-          </a>
-        </div>
-
-        <!-- Footer About Text -->
-        <div class="col-lg-4">
-          <h4 class="text-uppercase mb-4">About Freelancer</h4>
-          <p class="lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by
-            <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-        </div>
-
-      </div>
-    </div>
-  </footer>
+  <!-- FIN Contacto -->
 
   <!-- Copyright Section -->
   <section class="copyright py-4 text-center text-white">
     <div class="container">
-      <small>Copyright &copy; Your Website 2019</small>
+      <small>Copyright &copy; Roberto López Domínguez 2020</small>
     </div>
   </section>
 
