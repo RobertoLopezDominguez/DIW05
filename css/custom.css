@@ -1,0 +1,85 @@
+/*
+*
+* CSS Personalizado por mí
+*
+*/
+
+/* Colores */
+.text-primary {
+    color: #aa4139 !important;
+}
+
+a.text-primary:hover, a.text-primary:focus {
+    color: #a03d36  !important;
+}
+
+.text-secondary {
+color: #a03d36 !important;
+}
+
+a.text-secondary:hover, a.text-secondary:focus {
+color: #11181f !important;
+}
+
+.bg-primary {
+    background-color: #aa4139 !important;
+}
+
+.bg-secondary {
+    background-color: #2d4b21 !important;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active {
+    color: #fff;
+    background: #aa4139;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active:active, #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus, #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
+    color: #fff;
+    background: #a03d36;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #b9473f;
+}
+
+.divider-custom .divider-custom-icon {
+    color: #a03d36 !important;
+}
+
+.divider-custom .divider-custom-line {
+    background-color: #a03d36 ;
+    border-color: #a03d36 !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23aa4139' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+  }
+  
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23aa4139' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+  }
+
+  .carousel-indicators li {
+      background-color: #aa4139;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #aa4139;
+    border-color: #aa4139;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #a03d36;
+    border-color: #a03d36;
+}
+
+.copyright {
+    background-color: #2d4b21;
+}
+
+a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
+    background-color: #a03d36!important;
+}
