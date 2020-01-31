@@ -83,3 +83,15 @@ color: #11181f !important;
 a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
     background-color: #a03d36!important;
 }
+
+
+/* Estilos para la sección Cualidades para que se vea igual en Chrome que en Firefox */
+.rectangulo-cualidades {
+    width: 100%;
+    height: 180px;
+}
+
+.icono-cualidades {
+    box-sizing: content-box;
+    height: 95%;
+}
